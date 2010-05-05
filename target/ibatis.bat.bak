@@ -1,0 +1,7 @@
+@set /P input=Please enter key:
+@echo %input%
+genBoCode.bat %input% 
+rem 
+clear;
+pause;
+
