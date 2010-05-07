@@ -92,7 +92,6 @@ public class BoCommand {
 
 	public String makeStringByFreeMaker(String command) {
 		String result = null;
-		// String content = "";
 		String encode = "UTF-8";
 		try {
 			configuration.setDefaultEncoding(encode);
@@ -101,8 +100,9 @@ public class BoCommand {
 //			URL location = this.getClass().getProtectionDomain().getCodeSource().getLocation();
 //			System.out.println("freemarker templateLoaderPath: "+location.getPath());
 //			this.setTemplateLoaderPath(location.getPath()+File.separator+"freemarker");
+			String templateLoaderPath = JarManager.getJarPath(IbatisDSLCommand.class)+getTemplateLoaderPath();
 			File td = new File(templateLoaderPath);
-//			System.out.println("templateLoaderPath: " + templateLoaderPath);
+			System.out.println("templateLoaderPath: " + templateLoaderPath);
 			configuration.setDirectoryForTemplateLoading(td);
 			Template t = new Template("name", new StringReader(command),
 					configuration);

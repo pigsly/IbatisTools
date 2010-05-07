@@ -55,7 +55,7 @@
  <!-- Remember: parameterClass needs a classpath-->
  <select id="${statement}" parameterClass="${ByType}" resultMap="ibatorgenerated_BaseResultMap">
     select ${modelObject}.*
-    from ${modelType} ${modelObject}, ${ByType} ${ByObject}
+    from  ${r"${"}${modelType}${r"}"} ${modelObject},  ${r"${"}${ByType}${r"}"} ${ByObject}
     where ${modelObject}.${ByObject}xuid = ${ByObject}.xuid
 	and ${ByObject}.xuid = #xuid#
   </select>
@@ -66,11 +66,11 @@
  <!-- Remember: parameterClass needs a classpath-->
  <select id="${statement}" parameterClass="${ByType}" resultMap="ibatorgenerated_BaseResultMap">
     select ${modelObject}.*
-    from ${modelType} ${modelObject}
+    from ${r"${"}${modelType}${r"}"} ${modelObject}
     <dynamic prepend="where ">
-	<isNotNull prepend="and" property="property1">
+	<isNotEmpty prepend="and" property="property1">
 	  property1 = #property1:VARCHAR#
-        </isNotNull>
+        </isNotEmpty>
         ....This is an optional copy.
 	</dynamic>
   </select>

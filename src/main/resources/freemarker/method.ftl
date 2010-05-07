@@ -1,5 +1,6 @@
 
 <#macro function returnClass methodName type parameter>
+<#assign parameter="${parameter}">
 <#if returnClass = "">
 public void ${methodName}(${type} ${parameter}) {
 <#nested>
@@ -44,4 +45,8 @@ result = (Boolean) transactionTemplate
 	}
 });
 return result;
+</#macro>
+
+<#macro ibatisformat temp>
+${r"${"}${temp}${r"}"}
 </#macro>

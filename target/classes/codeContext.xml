@@ -33,7 +33,8 @@
 	</bean>
 	<bean id="boCommand" class="com.fpg.ec.utility.BoCommand">
 		<property name="configuration" ref="freemarkerAPIConfiguration"></property>
-		<property name="templateLoaderPath" value="D:\mvn_workspace\tools\target\classes\freemarker"></property>
+		<property name="templateLoaderPath" value="src/main/resources/freemarker/"></property>
+		<!--D:\mvn_workspace\tools\target\classes\freemarker  -->
 	</bean>
 	
 </beans>

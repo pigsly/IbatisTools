@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" skipped="0" tests="2" time="0.063" failures="0" name="com.fpg.ec.utility.JarManagerTest">
+  <properties>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_17\jre\bin" name="sun.boot.library.path"/>
+    <property value="1.5.0_17-b04" name="java.vm.version"/>
+    <property value="Sun Microsystems Inc." name="java.vm.vendor"/>
+    <property value="http://java.sun.com/" name="java.vendor.url"/>
+    <property value=";" name="path.separator"/>
+    <property value="Java HotSpot(TM) Client VM" name="java.vm.name"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="TW" name="user.country"/>
+    <property value="SUN_STANDARD" name="sun.java.launcher"/>
+    <property value="Service Pack 3" name="sun.os.patch.level"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="D:\mvn_workspace\tools" name="user.dir"/>
+    <property value="1.5.0_17-b04" name="java.runtime.version"/>
+    <property value="sun.awt.Win32GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="D:\mvn_workspace\tools" name="basedir"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_17\jre\lib\endorsed" name="java.endorsed.dirs"/>
+    <property value="x86" name="os.arch"/>
+    <property value="C:\DOCUME~1\roger\LOCALS~1\Temp\surefirebooter1971455486593591791.jar" name="surefire.real.class.path"/>
+    <property value="C:\DOCUME~1\roger\LOCALS~1\Temp\" name="java.io.tmpdir"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="" name="user.variant"/>
+    <property value="Windows XP" name="os.name"/>
+    <property value="MS950" name="sun.jnu.encoding"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_17\jre\bin;.;C:\WINDOWS\system32;C:\WINDOWS;D:\oraclexe\app\oracle\product\10.2.0\server\bin;d:\Tcl\bin;C:\Program Files\IBM\WebSphere MQ\Java\lib;C:\ORAWIN95\bin;C:\Program Files\Oracle\jre\1.1.7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Intel\Wireless\Bin\;C:\Program Files\Common Files\Adobe\AGL;C:\Program Files\QuickTime\QTSystem\;c:\program files\borland\StarTeam SDK 2005 R2\Lib;c:\program files\borland\StarTeam SDK 2005 R2\Bin;C:\Program Files\IBM\WebSphere MQ\bin;C:\Program Files\IBM\WebSphere MQ\WEMPS\bin;C:\Program Files\AOpen\Common\.;D:\TortoiseSVN\bin;D:\Graphviz2.24\bin;JAVA_HOME%\bin;C:\Program Files\CVSNT\;D:\workspace\lib\apache-maven-2.1.0\bin;C:\fmpp;C:\ant\bin;D:\Graphviz2.24\bin;.;" name="java.library.path"/>
+    <property value="D:\mvn_workspace\tools\target\test-classes;D:\mvn_workspace\tools\target\classes;D:\workspace\Repository\org\freemarker\freemarker\2.3.16\freemarker-2.3.16.jar;D:\workspace\Repository\org\springframework\spring\2.5.6\spring-2.5.6.jar;D:\workspace\Repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\workspace\Repository\junit\junit\3.8.2\junit-3.8.2.jar;D:\workspace\Repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;D:\workspace\Repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;" name="surefire.test.class.path"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="HotSpot Client Compiler" name="sun.management.compiler"/>
+    <property value="5.1" name="os.version"/>
+    <property value="C:\Documents and Settings\roger" name="user.home"/>
+    <property value="" name="user.timezone"/>
+    <property value="sun.awt.windows.WPrinterJob" name="java.awt.printerjob"/>
+    <property value="1.5" name="java.specification.version"/>
+    <property value="MS950" name="file.encoding"/>
+    <property value="roger" name="user.name"/>
+    <property value="D:\mvn_workspace\tools\target\test-classes;D:\mvn_workspace\tools\target\classes;D:\workspace\Repository\org\freemarker\freemarker\2.3.16\freemarker-2.3.16.jar;D:\workspace\Repository\org\springframework\spring\2.5.6\spring-2.5.6.jar;D:\workspace\Repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\workspace\Repository\junit\junit\3.8.2\junit-3.8.2.jar;D:\workspace\Repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;D:\workspace\Repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;" name="java.class.path"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_17\jre" name="java.home"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="zh" name="user.language"/>
+    <property value="sun.awt.windows.WToolkit" name="awt.toolkit"/>
+    <property value="mixed mode, sharing" name="java.vm.info"/>
+    <property value="1.5.0_17" name="java.version"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_17\jre\lib\ext" name="java.ext.dirs"/>
+    <property value="C:\Program Files\Java\jdk1.5.0_17\jre\lib\rt.jar;C:\Program Files\Java\jdk1.5.0_17\jre\lib\i18n.jar;C:\Program Files\Java\jdk1.5.0_17\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.5.0_17\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.5.0_17\jre\lib\jce.jar;C:\Program Files\Java\jdk1.5.0_17\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.5.0_17\jre\classes" name="sun.boot.class.path"/>
+    <property value="Sun Microsystems Inc." name="java.vendor"/>
+    <property value="D:\workspace\Repository" name="localRepository"/>
+    <property value="\" name="file.separator"/>
+    <property value="http://java.sun.com/cgi-bin/bugreport.cgi" name="java.vendor.url.bug"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="windows" name="sun.desktop"/>
+    <property value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" name="sun.cpu.isalist"/>
+  </properties>
+  <testcase classname="com.fpg.ec.utility.JarManagerTest" time="0.031" name="testGetSimpleClassNameWithExt"/>
+  <testcase classname="com.fpg.ec.utility.JarManagerTest" time="0.016" name="testGetJarPath"/>
+</testsuite>

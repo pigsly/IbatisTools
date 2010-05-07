@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" skipped="0" tests="3" time="1.922" failures="0" name="com.fpg.ec.utility.BoCommandTest">
+<testsuite errors="0" skipped="0" tests="3" time="1.078" failures="3" name="com.fpg.ec.utility.BoCommandTest">
   <properties>
     <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
     <property value="C:\Program Files\Java\jdk1.5.0_17\jre\bin" name="sun.boot.library.path"/>
@@ -19,7 +19,7 @@
     <property value="D:\mvn_workspace\tools" name="basedir"/>
     <property value="C:\Program Files\Java\jdk1.5.0_17\jre\lib\endorsed" name="java.endorsed.dirs"/>
     <property value="x86" name="os.arch"/>
-    <property value="C:\DOCUME~1\roger\LOCALS~1\Temp\surefirebooter491178503057160735.jar" name="surefire.real.class.path"/>
+    <property value="C:\DOCUME~1\roger\LOCALS~1\Temp\surefirebooter1971455486593591791.jar" name="surefire.real.class.path"/>
     <property value="C:\DOCUME~1\roger\LOCALS~1\Temp\" name="java.io.tmpdir"/>
     <property value="
 " name="line.separator"/>
@@ -59,7 +59,156 @@
     <property value="windows" name="sun.desktop"/>
     <property value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" name="sun.cpu.isalist"/>
   </properties>
-  <testcase classname="com.fpg.ec.utility.BoCommandTest" time="1.328" name="testMakeStringByFreeMaker"/>
-  <testcase classname="com.fpg.ec.utility.BoCommandTest" time="0.328" name="testOne"/>
-  <testcase classname="com.fpg.ec.utility.BoCommandTest" time="0.219" name="testOne2Many"/>
+  <testcase classname="com.fpg.ec.utility.BoCommandTest" time="0.735" name="testMakeStringByFreeMaker">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertNotNull(Assert.java:217)
+	at junit.framework.Assert.assertNotNull(Assert.java:210)
+	at com.fpg.ec.utility.BoCommandTest.testMakeStringByFreeMaker(BoCommandTest.java:23)
+</failure>
+    <system-out>context start.....main/resources/codeContext.xml
+Jar Path: 
+templateLoaderPath: \freemarker\template
+Unable to read or process freemarker configuration or template
+result: null
+</system-out>
+    <system-err>java.io.FileNotFoundException: \freemarker\template does not exist.
+	at freemarker.cache.FileTemplateLoader$1.run(FileTemplateLoader.java:125)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at freemarker.cache.FileTemplateLoader.&lt;init&gt;(FileTemplateLoader.java:122)
+	at freemarker.cache.FileTemplateLoader.&lt;init&gt;(FileTemplateLoader.java:108)
+	at freemarker.template.Configuration.setDirectoryForTemplateLoading(Configuration.java:314)
+	at com.fpg.ec.utility.BoCommand.makeStringByFreeMaker(BoCommand.java:107)
+	at com.fpg.ec.utility.BoCommandTest.testMakeStringByFreeMaker(BoCommandTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at junit.framework.TestCase.runTest(TestCase.java:164)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at junit.framework.TestSuite.runTest(TestSuite.java:230)
+	at junit.framework.TestSuite.run(TestSuite.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+</system-err>
+  </testcase>
+  <testcase classname="com.fpg.ec.utility.BoCommandTest" time="0.172" name="testOne">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertNotNull(Assert.java:217)
+	at junit.framework.Assert.assertNotNull(Assert.java:210)
+	at com.fpg.ec.utility.BoCommandTest.testOne(BoCommandTest.java:30)
+</failure>
+    <system-out>context start.....main/resources/codeContext.xml
+Jar Path: 
+templateLoaderPath: \freemarker\template
+Unable to read or process freemarker configuration or template
+result: null
+</system-out>
+    <system-err>java.io.FileNotFoundException: \freemarker\template does not exist.
+	at freemarker.cache.FileTemplateLoader$1.run(FileTemplateLoader.java:125)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at freemarker.cache.FileTemplateLoader.&lt;init&gt;(FileTemplateLoader.java:122)
+	at freemarker.cache.FileTemplateLoader.&lt;init&gt;(FileTemplateLoader.java:108)
+	at freemarker.template.Configuration.setDirectoryForTemplateLoading(Configuration.java:314)
+	at com.fpg.ec.utility.BoCommand.makeStringByFreeMaker(BoCommand.java:107)
+	at com.fpg.ec.utility.BoCommand.one(BoCommand.java:41)
+	at com.fpg.ec.utility.BoCommandTest.testOne(BoCommandTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at junit.framework.TestCase.runTest(TestCase.java:164)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at junit.framework.TestSuite.runTest(TestSuite.java:230)
+	at junit.framework.TestSuite.run(TestSuite.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+</system-err>
+  </testcase>
+  <testcase classname="com.fpg.ec.utility.BoCommandTest" time="0.156" name="testOne2Many">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertNotNull(Assert.java:217)
+	at junit.framework.Assert.assertNotNull(Assert.java:210)
+	at com.fpg.ec.utility.BoCommandTest.testOne2Many(BoCommandTest.java:37)
+</failure>
+    <system-out>context start.....main/resources/codeContext.xml
+Jar Path: 
+templateLoaderPath: \freemarker\template
+Unable to read or process freemarker configuration or template
+result: null
+</system-out>
+    <system-err>java.io.FileNotFoundException: \freemarker\template does not exist.
+	at freemarker.cache.FileTemplateLoader$1.run(FileTemplateLoader.java:125)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at freemarker.cache.FileTemplateLoader.&lt;init&gt;(FileTemplateLoader.java:122)
+	at freemarker.cache.FileTemplateLoader.&lt;init&gt;(FileTemplateLoader.java:108)
+	at freemarker.template.Configuration.setDirectoryForTemplateLoading(Configuration.java:314)
+	at com.fpg.ec.utility.BoCommand.makeStringByFreeMaker(BoCommand.java:107)
+	at com.fpg.ec.utility.BoCommand.one2many(BoCommand.java:50)
+	at com.fpg.ec.utility.BoCommandTest.testOne2Many(BoCommandTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at junit.framework.TestCase.runTest(TestCase.java:164)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at junit.framework.TestSuite.runTest(TestSuite.java:230)
+	at junit.framework.TestSuite.run(TestSuite.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+</system-err>
+  </testcase>
 </testsuite>

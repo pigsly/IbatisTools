@@ -1,0 +1,56 @@
+/** Single Bo:Book start**/
+/**
+ * @Simple Book select
+ * @return 
+ */
+public BookList findAllBookList() {
+	List list = bookDAO.selectAll();
+	BookList bookList = new BookList();
+	bookList.addAll(list);
+	return bookList;
+}
+
+/**
+ * @Simple Book select
+ * @return 
+ */
+public Book findBookById(String xuid) {
+	Book book = bookDAO.selectByPrimaryKey(xuid);
+	return book;
+}
+
+/**
+ * @Simple Book insert
+ * @param book
+ * @return
+ */
+public void insertBook(Book book) {
+	bookDAO.insert(book);	
+}
+
+/**
+ * @Simple Book update
+ * @param book
+ * @return
+ */
+public Boolean updateBook(Book book) {
+	int updateResult =  bookDAO.updateByPrimaryKey(book);
+	if (updateResult > 0) {
+		return Boolean.TRUE;
+	}
+	return Boolean.FALSE;
+}
+
+/**
+ * @Simple Book delete
+ * @param book
+ * @return
+ */
+public Boolean deleteBook(String xuid) {
+	int delDResult =  bookDAO.deleteByPrimaryKey(xuid);
+	if (delDResult > 0) {
+		return Boolean.TRUE;
+	}
+	return Boolean.FALSE;
+}
+/** Single Bo:Book end **/
